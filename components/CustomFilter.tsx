@@ -1,5 +1,5 @@
 
-const CustomFilter = (title: string) => {
+const CustomFilter = () => {
   return (
     <div>CustomFilter</div>
   )
