@@ -27,8 +27,8 @@ export default async function Home() {
 
         {!isDataEmpty ? (
           <section className="home__cars-wrapper">
-            {allCars?.map((car) => (
-              <CarCard car={car} />
+            {allCars?.map((car, i) => (
+              <CarCard key={i} car={car} />
             ))}
           </section>
         ) : (
