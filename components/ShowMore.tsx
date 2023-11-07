@@ -14,7 +14,6 @@ const ShowMore = ({ pageNumber, isNext }: ShowMoreProps) => {
     router.push(newPathName, { scroll: false });
   };
 
-
   return (
     <div className="w-full flex-center gap-5 mt-10">
       {!isNext && (
